@@ -145,7 +145,7 @@ body{
 
 /* mess */
 #sticky {
-    background-image: url(./img/mess/mess.png);
+    background-image: url(https://github.com/DinhLeHoan/myWebsite/blob/main/img/mess/mess.png?raw=true);
     background-size: 100%;
     position:fixed;
     background-repeat: none;
@@ -157,7 +157,7 @@ body{
 }
 
 #sticky:hover{
-    background-image: url(./img/mess/mess1.gif);
+    background-image: url(https://github.com/DinhLeHoan/myWebsite/blob/main/img/mess/mess1.gif?raw=true);
     background-size: 100%;
     position:fixed;
     background-repeat: none;
