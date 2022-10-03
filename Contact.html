@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+        position: relative;
+    }
+
+    .Contact_info{
+        position: absolute;
+        top:50px;
+        left: 30px;
+        width: 50%;
+        border: 1px solid #0060ad;
+        padding: 35px;
+        
+    }
+
+    h2{
+        color: #0060ad;
+        margin-bottom: 15px;
+    }
+
+    .Contact_info li {
+        line-height: 27px;
+        list-style-type: none;
+    }
+
+    .Contact_info .phone img{
+        padding-right: 6px;
+    }
+
+    .Contact_info .Do img{
+        padding-right: 4px;
+    }
+
+    /* feedback */
+    .Feedback{
+        position: absolute;
+        top:300px;
+        left: 30px;
+        width: 50%;
+        border: 1px solid #0060ad;
+        padding: 35px 35px 60px 35px;
+    }
+    .phone{
+        margin-right: 40px;
+    }
+    .name{
+        margin-right: 67px;
+    }
+    .mail{
+        margin-right: 97px;
+    }
+    .content{
+        margin-right: 70px;
+        
+    }
+    input{
+        margin:8px;
+        height: 40px ;
+        border-radius: 4px;
+        padding-left: 10px;
+        border: 1px solid gray;
+        width: 450px;
+    }
+    .noiDung{
+        padding-bottom: 100px;
+        padding-top: 16px;
+    }
+    iframe{
+        height: 690px;
+        position: absolute;
+        top: 50px;
+        right: 30px;
+        border: 1px solid #005fae;
+        box-shadow: 0 0 4px #005fae;
+    }
+    button{
+        position: absolute;
+        left: 310px;
+        width: 100px;
+        height: 40px;
+        border-radius: 3px;
+        border: 1px solid gray;
+        background-color: #ff8b14;
+        color: #fff;
+        bottom: 14px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="Contact_info">
+        <h2>TRƯỜNG TRUNG HỌC PHỔ THÔNG VĨNH THUẬN</h2>
+        <ul>
+            <li class="Do"><img src="./img/icon-c-1.png" alt=""> <strong>Địa chỉ:</strong>  Khu phố Vĩnh Đông 2, Thị trấn Vĩnh Thuận, huyện Vĩnh Thuận, Tỉnh Kiên Giang</li>
+            <li class="phone"><img src="./img/icon-c-2.png" alt=""> <strong>Điện thoại: </strong> 0773.829059</li>
+            <li><img src="./img/icon-c-4.png" alt=""> <strong>Email: </strong> c3vinhthuan.kiengiang@moet.edu.vn</li>
+        </ul>
+    </div>
+    <div class="Feedback">
+        <h2>Gửi thư</h2>
+        <form action="">
+            <label for="" class="name">Họ và tên</label>
+            <input type="text" placeholder="Họ và tên..." ><br>
+            <label for="" class="mail">Email</label>
+            <input type="email" placeholder="Email..." ><br>
+            <label for="" class="phone">Số điện thoại</label>
+            <input type="text" placeholder="Số điện thoại..." ><br>
+            <label for="" class="content">Nội dung</label>
+            <input class="noiDung" type="text" placeholder="Nội dung..." >
+            <button>Gửi Mail</button>
+        </form>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15740.140715514986!2d105.2533537!3d9.5056698!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2c0c158753f2a073!2sVinh%20Thuan%20High%20School!5e0!3m2!1sen!2s!4v1664422251686!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>

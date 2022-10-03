@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    zoom: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    
+}
+
+/* header */
+
+#header{
+    background: url(./background.jpg) no-repeat;
+    min-height: 150px;
+    width: 100%;
+    background-size: 100% 100%;
+    position: relative;
+    background-size: cover;
+}
+.name{
+    position: absolute;
+    top: 50px;
+    left: 190px;
+}
+.name1{
+    color: red;
+    text-shadow: 0 0 3px #fff;
+    font-weight: bolder;
+    font-size: larger;
+}
+.name2{
+    color: blue;
+    text-shadow: 0 0 3px #fff;
+    padding-left: 40px;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+#header img{
+    position: absolute;
+    width: 100px;
+    top:25px;
+    left: 80px;
+    
+}
+
+/* nav */
+
+#nav{
+    width: 100%;
+    background-color: rgb(63, 51, 227);
+    height: 40px;
+    text-align: center;
+    
+    
+}
+
+#nav,.subnav{
+    list-style: none;
+}
+
+#nav>ul>li>a{
+    text-decoration: none;
+    font-weight: BOLD;
+    color: white;
+    font-size: 19px;
+    line-height: 40px;
+    display: block;
+
+}
+
+#nav>ul>li{
+    display: inline-block;
+    padding: 0 15px 0 15px;
+    position: relative;
+}
+
+#nav>ul>li:hover{
+    background-color: #ccc;
+}
+
+#nav>ul>li:hover>a{
+    color: rgb(0, 0, 0);
+}
+
+#nav .subnav li{
+    width: 100%;
+    border: 1px ;
+}
+
+#nav .subnav{
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    top: 100%;
+    left: 0%;
+    background-color: #fff;
+    box-shadow: 0 0 3px gray;
+    color: #000;
+    
+}
+
+#nav li:hover .subnav{
+    display: block;
+}
+
+.subnav li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: large;
+    line-height: 40px;
+    display: block;
+    text-align: left;
+    padding: 2px;
+    padding-left: 15px;
+    border-top: 1px solid #000;
+}
+
+.subnav li:hover a{
+    background-color: rgb(28, 149, 241);
+    
+    color: #fff;
+}
+
+/* content */
+
+#content {
+    width: 90%;
+    
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+#content>img{
+    width: 100%;
+    
+}
+
+/* mess */
+#sticky {
+    background-image: url(./img/mess/mess.png);
+    background-size: 100%;
+    position:fixed;
+    background-repeat: none;
+    bottom: 30px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+#sticky:hover{
+    background-image: url(./img/mess/mess1.gif);
+    background-size: 100%;
+    position:fixed;
+    background-repeat: none;
+    bottom: 30px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+#sticky p{
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    background-color: rgb(246, 255, 0);
+    bottom: 70px;
+    right: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: red;
+    border: #ccc 1px solid;
+    box-shadow: 0 0 3px gray;
+    
+}
+
+#sticky:hover p{
+    display: block;
+}
+
+/* footer */
+
+#footer{
+    padding: 15px 0 15px 0;
+    border-top: 2px solid blue;
+    background-color: lightcyan;
+    line-height: 25px;
+    clear: both;
+    text-align: center;
+    font-weight: 500;
+}
+
